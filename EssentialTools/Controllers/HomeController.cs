@@ -18,7 +18,7 @@ namespace EssentialTools.Controllers
         };
         private IValueCalculator calc;
 
-        public HomeController(IValueCalculator calcParam)
+        public HomeController(IValueCalculator calcParam, IValueCalculator calc2)
         {
             calc = calcParam;
         }
