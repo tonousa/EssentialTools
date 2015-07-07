@@ -68,7 +68,8 @@ namespace EssentialTools.Tests
             Assert.AreEqual(5, TenDollarDiscount, "$10 Fail");
             Assert.AreEqual(45, FiftyDollarDiscount, "$50 Fail");
             Assert.AreEqual(95, HundredDollarDiscount, "$100 Fail");
-            Assert.AreEqual(450, FiftyDollarDiscount, "$500 Fail");
+            Assert.AreEqual(450, FiveHundredDollarDiscount, "$500 Fail");
+            target.ValueProducts(createProduct(0));
         }
     }
 }
